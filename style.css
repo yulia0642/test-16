@@ -1,0 +1,27 @@
+
+.mrk {
+  animation-duration: 5s; 
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein 
+  from {
+    margin-left: 100%; 
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+
+body {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: darkblue; 
+    justify-content: center; 
+    background-color: coral; 
+}
+
